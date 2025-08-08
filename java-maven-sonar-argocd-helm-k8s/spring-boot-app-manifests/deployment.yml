@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: abhigitdockertest/ultimate-cicd:replaceImageTag
+        image: abhigitdockertest/ultimate-cicd:8
         ports:
         - containerPort: 8080
